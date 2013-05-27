@@ -1,0 +1,7 @@
+# bundler
+/.bundle/
+/.gems/
+/bin/
+
+# veewee
+/iso/
