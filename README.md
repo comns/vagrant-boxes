@@ -44,6 +44,9 @@ chef/puppet is not needed or with [vagrant-omnibus][].
 *Note that currently only [this fork][fork] of the vagrant omnibus
 plugin works with the vmware provider.*
 
+### comns-precese64-chef
+Same as above but with latest chef pre-installed (omnibus).
+
 ## Resources
 Some resources for creating vagrant images:
 
