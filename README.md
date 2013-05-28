@@ -33,6 +33,17 @@ To export the box run:
 
 Then import the resulting box to vagrant.
 
+## Definitions
+
+### comns-precise64
+This is based on the `ubuntu-12.04.1-server-amd64` template, but omits
+the ruby/chef/puppet/virtualbox scripts (why virtualbox even exists
+here? must be a bug). The resulting box should be run either when
+chef/puppet is not needed or with [vagrant-omnibus][].
+
+*Note that currently only [this fork][fork] of the vagrant omnibus
+plugin works with the vmware provider.*
+
 ## Resources
 Some resources for creating vagrant images:
 
@@ -44,3 +55,5 @@ Some resources for creating vagrant images:
 [veewee]:  https://github.com/jedi4ever/veewee/
 [blog]:    http://cbednarski.com/articles/creating-vagrant-base-box-for-centos-62/
 [Bento]:   https://github.com/opscode/bento
+[fork]:    https://github.com/rjocoleman/vagrant-omnibus
+[vagrant-omnibus]: https://github.com/schisamo/vagrant-omnibus
